@@ -24,7 +24,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
         <druid.version>1.1.2</druid.version>
-        <mysql-connector.version>8.0.7-dmr</mysql-connector.version>
+        <mysql-connector.version>8.0.11</mysql-connector.version>
         <mybatis-plus.version>2.1.8</mybatis-plus.version>
         <mybatisplus-spring-boot-starter.version>1.0.5</mybatisplus-spring-boot-starter.version>
     </properties>
@@ -64,6 +64,11 @@
             <version>1.3</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+        <groupId>org.springframework.boot</groupId>
+	        <artifactId>spring-boot-starter-web</artifactId>
+	        <scope>provided</scope>
+		</dependency>
     </dependencies>
 
     <build>
